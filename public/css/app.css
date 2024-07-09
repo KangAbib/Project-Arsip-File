@@ -1,0 +1,311 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+button, a {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+button.hapus {
+    background-color: red;
+}
+
+a.unduh {
+    background-color: orange;
+}
+
+a.lihat {
+    background-color: blue;
+}
+
+a.arsipkan {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+}
+
+/* app.css */
+.sidebar a {
+    color: black;
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+}
+
+.sidebar a:hover {
+    color: #555; /* Warna saat tautan di-hover */
+}
+
+.button {
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.button.unduh {
+    background-color: orange; /* Warna oranye untuk unduh */
+}
+.button.edit {
+    background-color: blue; /* Warna biru untuk edit */
+}
+.actions {
+    display: flex;
+    justify-content: left;
+    gap: 10px; /* Jarak antar tombol */
+    margin-top: 20px;
+}
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px;
+            display: inline-block;
+            background-color: #4CAF50; /* Warna hijau */
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+        .button.hapus {
+            background-color: red; /* Warna merah untuk hapus */
+        }
+        .button.edit {
+            background-color: blue; /* Warna biru untuk edit */
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+        form div {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px;
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+        .unik1 {
+            width: 150px;
+        }
+
+        .unik2 {
+            width: 200px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .search-bar input[type="text"] {
+            margin-right: 10px;
+        }
+
+/* Categories */
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    padding: 10px;
+    display: inline-block;
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.button.hapus {
+    background-color: red; /* Warna merah untuk hapus */
+}
+.button.edit {
+    background-color: blue; /* Warna biru untuk edit */
+}
+
+/* about */
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-content {
+    text-align: left;
+}
+.about-content img {
+    width: 150px;
+    height: 200px;
+}
